@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3598dc;
+    font-family: sans-serif;
+}
+
+#box1 {
+    width: 600px;
+    height: 600px;
+    background-color: #3598dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box2 {
+    width: 350px;
+    height: 340px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 1em black;
+}
+
+.h1 {
+    color: gray;
+    font-weight: 460;
+}
+
+#usuario {
+    /* background-color: rgb(221, 215, 215);*/
+}
+
+#usuario>input {
+    height: 45px;
+    border: none;
+    background-color: #ecf0f1;
+    width: 300px;
+    margin: 0.5px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.signIn {
+    padding: 12px;
+    background-color: #3598dc;
+    border: none;
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.signIn:hover {
+    background-color: rgb(94, 180, 238);
+    cursor: pointer;
+}
+
+.lyp {
+    border: none;
+    cursor: pointer;
+    text-decoration-line: underline;
+    color: gray;
+    font-size: 15px;
+}
+
+.signUp {
+    color: white;
+    font-size: 13px;
+}
+
+.signUp a {
+    color: white;
+}
